@@ -1,15 +1,10 @@
-<header class="top-menu">
-    <div class="greeter">
-        Welcome to EVSandwichDex!
-    </div>
-</header>
+<div class="top-menu">
+    Welcome to EVSandwichDex!
+</div>
 
 <style>
-    .top-menu {
-        background-color: bisque;
-    }
-    .greeter {
-        text-align: center;
-
-    }
+.top-menu {
+    height: 5vh;
+    text-align: center;
+}
 </style>

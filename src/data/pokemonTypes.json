@@ -1,75 +1,75 @@
 [
     {
         "type": "Normal",
-        "color": "#9fa19f"
+        "color": "159, 161, 159"
     },
     {
         "type": "Fighting",
-        "color": "#ff7f00"
+        "color": "255, 127, 0"
     },
     {
         "type": "Flying",
-        "color": "#82baf0"
+        "color": "130, 186, 240"
     },
     {
         "type": "Poison",
-        "color": "#913ecd"
+        "color": "145, 62, 205"
     },
     {
         "type": "Ground",
-        "color": "#92501b"
+        "color": "146, 80, 27"
     },
     {
         "type": "Rock",
-        "color": "#b1ab82"
+        "color": "177,171,130"
     },
     {
         "type": "Bug",
-        "color": "#92a312"
+        "color": "146, 163, 18"
     },
     {
         "type": "Ghost",
-        "color": "#713f71"
+        "color": "113, 63, 113"
     },
     {
         "type": "Steel",
-        "color": "#60a3b9"
+        "color": "96, 163, 185"
     },
     {
         "type": "Fire",
-        "color": "#e72324"
+        "color": "231, 35, 36"
     },
     {
         "type": "Water",
-        "color": "#2481f0"
+        "color": "36, 129, 240"
     },
     {
         "type": "Grass",
-        "color": "#40a324"
+        "color": "64, 164, 36"
     },
     {
         "type": "Electric",
-        "color": "#f9c000"
+        "color": "249, 192, 0"
     },
     {
         "type": "Psychic",
-        "color": "#f03f7a"
+        "color": "240, 63, 122"
     },
     {
         "type": "Ice",
-        "color": "#3cd9ff"
+        "color": "60, 217, 255"
     },
     {
         "type": "Dragon",
-        "color": "#4f61e2"
+        "color": "79, 97, 226"
     },
     {
         "type": "Dark",
-        "color": "#4f3f3d"
+        "color": "79, 63, 61"
     },
     {
         "type": "Fairy",
-        "color": "#f171f1"
+        "color": "241, 113, 241"
     }
     
 ]
