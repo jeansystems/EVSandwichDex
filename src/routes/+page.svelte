@@ -12,7 +12,7 @@
         <LeftSidebar />
         <RightContent />
     </div>
-</div>>
+</div>
 
 <style>
     :global(body) {

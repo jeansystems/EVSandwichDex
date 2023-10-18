@@ -30,7 +30,7 @@
         overflow-y: auto;
         height: 100vh;
         width: 800px;
-        background-color: bisque;
+        background-color: powderblue;
         z-index: 0;
     }
     .left-sidebar-buttons {
