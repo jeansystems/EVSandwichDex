@@ -11,7 +11,6 @@
         <p>Select a Pokemon type from the buttons on the left</p>
     {:else}
         <p>Okay, selected {$pokemonTypeClicked}</p>
-        <p>{$pokemonColorClicked}</p>
     {/if}
 </div>
 

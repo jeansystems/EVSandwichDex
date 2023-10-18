@@ -7,6 +7,7 @@
 
     export function handleClick(type, color) {
         console.log('Clicked ' + type + ', has type ' + typeof type);
+        console.log('RGBA color selected (' + color + ') has type ' + typeof color);
         pokemonTypeClicked.set(type);
         pokemonColorClicked.set(color);
     }
