@@ -16,7 +16,8 @@
 
 <style>
     .right-content {
-        background-color: rgba(var(--bg-color), 0.4);
+        transition: background-color 0.2s ease;
+        background-color: rgba(var(--bg-color));
         overflow-y: auto;
         flex-grow: 1;
     }
