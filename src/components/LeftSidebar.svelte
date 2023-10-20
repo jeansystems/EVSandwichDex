@@ -57,4 +57,8 @@
     .left-sidebar-buttons:focus {
         color: black;
     }
+    .left-divider {
+        background-color: rgb(204, 186, 17);
+        width: .25vw;
+    }
 </style>

@@ -12,6 +12,32 @@
     {:else}
         <p>Okay, selected {$pokemonTypeClicked}</p>
     {/if}
+    <div class="right-content-table">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Pokemon</th>
+                    <th scope="col">HP</th>
+                    <th scope="col">Attack</th>
+                    <th scope="col">Defense</th>
+                    <th scope="col">Sp. Attack</th>
+                    <th scope="col">Sp. Defense</th>
+                    <th scope="col">Speed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Sprigatito</th>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <style>
