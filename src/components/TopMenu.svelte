@@ -1,10 +1,14 @@
 <div class="top-menu">
-    Welcome to EVSandwichDex!
+    <div class="top-menu-logo">
+        Welcome to EVSandwichDex!
+    </div>
 </div>
 
 <style>
 .top-menu {
     height: 5vh;
+}
+.top-menu-logo {
     text-align: center;
 }
 </style>
