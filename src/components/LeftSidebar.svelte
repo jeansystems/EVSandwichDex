@@ -5,11 +5,17 @@
     export let pokemonTypeClicked = writable(null);
     export let pokemonColorClicked = writable(null);
 
-    export function handleClick(type, color) {
+    export function handleClickShowType(type, color) {
         console.log('Clicked ' + type + ', has type ' + typeof type);
         console.log('RGBA color selected (' + color + ') has type ' + typeof color);
         pokemonTypeClicked.set(type);
         pokemonColorClicked.set(color);
+    }
+
+    export function handleClickShowAll() {
+        console.log('Clicked \'Show all\'');
+        pokemonTypeClicked.set(null);
+        pokemonColorClicked.set(null);
     }
 
 </script>
@@ -19,11 +25,16 @@
             <button
                 class="left-sidebar-buttons"
                 style="--button-color: {pokemonType.color}"
-                on:click={() => handleClick(pokemonType.type, pokemonType.color)}
+                on:click={() => handleClickShowType(pokemonType.type, pokemonType.color)}
             >
                 {pokemonType.type}
             </button>
         {/each}
+        <button
+            class="left-sidebar-buttons"
+            style="background-color: gray"
+            on:click={() => handleClickShowAll()}
+        >Show All</button>
     </div>
     <div class="left-divider">
         &nbsp;
