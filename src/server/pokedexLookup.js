@@ -18,7 +18,7 @@ export async function retrievePaldeaUrls() {
 }
 
 export async function retrieveKitakamiUrls() {
-	return fetch(pokedexKitakami)
+	await fetch(pokedexKitakami)
 		.then((response) => {
 			return response.json();
 		})
