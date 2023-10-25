@@ -1,11 +1,11 @@
 const pokedexPaldea = "https://pokeapi.co/api/v2/pokedex/31";
 const pokedexKitakami = "https://pokeapi.co/api/v2/pokedex/32";
 
-let paldeaUrls = [];
-let kitakamiUrls = [];
+export let paldeaUrls = [];
+export let kitakamiUrls = [];
 
-function retrievePaldeaUrls() {
-	fetch(pokedexPaldea)
+export async function retrievePaldeaUrls() {
+	await fetch(pokedexPaldea)
 		.then((response) => {
 			return response.json();
 		})
@@ -14,12 +14,11 @@ function retrievePaldeaUrls() {
 			entries.forEach((entry) => {
 				paldeaUrls.push(entry.pokemon_species.url);
 			})
-			console.log(paldeaUrls);
 		});
 }
 
-function retrieveKitakamiUrls() {
-	fetch(pokedexKitakami)
+export async function retrieveKitakamiUrls() {
+	return fetch(pokedexKitakami)
 		.then((response) => {
 			return response.json();
 		})
@@ -29,7 +28,7 @@ function retrieveKitakamiUrls() {
 				kitakamiUrls.push(entry.pokemon_species.url);
 			})
 			console.log(kitakamiUrls);
-		})
+		});
 }
 
 //retrievePaldeaUrls();
