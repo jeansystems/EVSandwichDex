@@ -18,7 +18,7 @@ async function retrievePaldeaStats() {
         .then((data) => {
             let pokemonName = data.name;
             console.log(pokemonName);
-        })
+        });
     });
 };
 
