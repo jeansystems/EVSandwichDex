@@ -1,35 +1,66 @@
-const pokedexPaldea = "https://pokeapi.co/api/v2/pokedex/31";
-const pokedexKitakami = "https://pokeapi.co/api/v2/pokedex/32";
+//functions that take paldeaPokedex (list of Pokemon in order of regional dex)
+//creates and returns array of <region>Url to function
+//declares and calls <region>Pokemon variable for us to pass later
+//URLs retrieved from this can call to PokeAPI's detailed entries at https://pokeapi.co/api/v2/pokemon/
+//fetch paldea  URLs -> pokemon-species URLs -> pokemon URLs
+//fetch kitakami URLs -> pokemon_species URLs -> pokemon URLs
 
-export let paldeaUrls = [];
-export let kitakamiUrls = [];
+const paldeaPokedex = "https://pokeapi.co/api/v2/pokedex/31";
+const KitakamiPokedex = "https://pokeapi.co/api/v2/pokedex/32"
 
-export async function retrievePaldeaUrls() {
-	await fetch(pokedexPaldea)
-		.then((response) => {
-			return response.json();
-		})
-		.then((data) => {
-			const entries = data.pokemon_entries;
-			entries.forEach((entry) => {
-				paldeaUrls.push(entry.pokemon_species.url);
-			})
-		});
+async function fetchPaldeaSpeciesUrls() {
+
+	let paldeaSpeciesUrls = [];
+
+	const response = await fetch(paldeaPokedex);
+	const result = await response.json();
+	
+	result.pokemon_entries.forEach((pokemon_entry) => {
+		paldeaSpeciesUrls.push(pokemon_entry.pokemon_species.url)
+	});
+	
+	return paldeaSpeciesUrls;
+
 }
 
-export async function retrieveKitakamiUrls() {
-	await fetch(pokedexKitakami)
-		.then((response) => {
-			return response.json();
-		})
-		.then((data) => {
-			const entries = data.pokemon_entries;
-			entries.forEach((entry) => {
-				kitakamiUrls.push(entry.pokemon_species.url);
-			})
-			console.log(kitakamiUrls);
-		});
+async function fetchKitakamiSpeciesUrls() {
+
+	let kitakamiSpeciesUrls = [];
+
+	const response = await fetch(KitakamiPokedex);
+	const result = await response.json();
+	
+	result.pokemon_entries.forEach((pokemon_entry) => {
+		KitakamiSpeciesUrls.push(pokemon_entry.pokemon_species.url)
+	});
+	
+	return kitakamiSpeciesUrls;
+
 }
 
-//retrievePaldeaUrls();
-//retrieveKitakamiUrls();
+let paldeapeciesUrls  = await fetchPaldeaSpeciesUrls();
+let kitakamiSpeciesUrls = await fetchKitakamiSpeciesUrls();
+
+async function fetchPaldeaPokemonUrls(paldeaSpeciesUrls) {
+	
+	let paldeaPokemonUrls = [];
+
+	for(let species of paldeaSpeciesUrls) {
+		const response = await fetch(species);
+		const result = await response.json();
+
+		paldeaPokemonUrls.push(result.name);
+	};
+}
+
+async function fetchkitakamiPokemonUrls(kitakamiSpeciesUrls) {
+	
+	let kitakamiPokemonUrls = [];
+
+	for(let species of kitakamiSpeciesUrls) {
+		const response = await fetch(kitakamiSpeciesUrls);
+		const result = await response.json()
+
+		kitakamiPokemonUrls.push(result.name);
+	}
+}
