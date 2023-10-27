@@ -15,7 +15,7 @@ async function fetchPaldeaSpeciesUrls() {
 
 }
 
-let paldeapeciesUrls  = await fetchPaldeaSpeciesUrls();
+let paldeaSpeciesUrls  = await fetchPaldeaSpeciesUrls();
 
 async function fetchPaldeaPokemonUrls(paldeaSpeciesUrls) {
 	
