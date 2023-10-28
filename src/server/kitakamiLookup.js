@@ -21,7 +21,7 @@ async function fetchKitakamiSpeciesUrls() {
 let kitakamiSpeciesUrls = await fetchKitakamiSpeciesUrls();
 
 //now that we have each "species", we can retrieve the URL for each Pokemon
-//the URLs requested here contain the actual data we're going for: EV yields
+//the URLs requested here contain the actual data we're going for: EV yields but we need to get those URLs first
 async function fetchKitakamiPokemonUrls(kitakamiSpeciesUrls) {
 	
 	let kitakamiPokemonUrls = [];
@@ -36,8 +36,12 @@ async function fetchKitakamiPokemonUrls(kitakamiSpeciesUrls) {
 }
 
 let kitakamiPokemon = await fetchKitakamiPokemonUrls(kitakamiSpeciesUrls);
+//for now we're only passing through the first few items of the array for easier output handling
 let kitakamiPokemonSlice = kitakamiPokemon.slice(0,3);
 
+
+//we've retrieved the URL for each Pokemon (including their variants)
+//now to seek out their stats
 async function fetchKitakamiStats(kitakamiPokemonSlice) {
 
 	let kitakamiStats = [];
@@ -54,40 +58,5 @@ async function fetchKitakamiStats(kitakamiPokemonSlice) {
 }
 
 let finalStats = await fetchKitakamiStats(kitakamiPokemonSlice);
-console.log(finalStats, typeof finalStats, finalStats[0].stats);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-async function fetchKitakamiStats(kitakamiPokemonSlice) {
-
-	let kitakamiStats = [];
-
-	const responses = await Promise.all(kitakamiPokemonSlice.map (async (pokemonUrl) => {
-		const response = await fetch(pokemonUrl);
-		const result = await response.json();
-		return result.forEach((pokemonStats) =>
-			kitakamiStats.push(pokemonStats.stats)
-	)}));
-	return kitakamiStats;
-}
-
-let finalStats = await fetchKitakamiStats(kitakamiSpeciesUrls);
-*/
+//proof of concept, we should see the name and stats of the first Pokemon returned!
+console.log(finalStats[0].name, finalStats[0].stats);
