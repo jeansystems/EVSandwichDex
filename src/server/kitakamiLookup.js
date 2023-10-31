@@ -50,13 +50,16 @@ async function fetchKitakamiStats(kitakamiPokemonSlice) {
 		const response = await fetch(pokemon_data);
 		const result = await response.json();
 		
-		const name = result.name;
-		const stats = result.stats;
-		kitakamiStats.push({ name, stats });
+		//const name = result.name;
+		//const stats = result.stats;
+		//kitakamiStats.push({ name, stats });
+		kitakamiStats.push(result);
 	}));
 	return kitakamiStats;
 }
 
-let finalStats = await fetchKitakamiStats(kitakamiPokemonSlice);
+const finalStats = await fetchKitakamiStats(kitakamiPokemonSlice);
+const finalStatsJson = JSON.stringify(finalStats);
+console.log(finalStatsJson);
 //proof of concept, we should see the name and stats of the first Pokemon returned!
-console.log(finalStats[0].name, finalStats[0].stats);
+//console.log(finalStats[0].name, finalStats[0].stats);
