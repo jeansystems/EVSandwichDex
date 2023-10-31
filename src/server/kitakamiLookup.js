@@ -20,8 +20,6 @@ async function fetchKitakamiSpeciesUrls() {
 	return kitakamiSpeciesUrls;
 }
 
-let kitakamiSpeciesUrls = await fetchKitakamiSpeciesUrls();
-
 //now that we have each "species", we can retrieve the URL for each Pokemon
 //the URLs requested here contain the actual data we're going for: EV yields but we need to get those URLs first
 async function fetchKitakamiPokemonUrls(kitakamiSpeciesUrls) {
@@ -36,10 +34,6 @@ async function fetchKitakamiPokemonUrls(kitakamiSpeciesUrls) {
 	)}));
 	return kitakamiPokemonUrls;
 }
-
-let kitakamiPokemon = await fetchKitakamiPokemonUrls(kitakamiSpeciesUrls);
-//for now we're only passing through the first few items of the array for easier output handling
-let kitakamiPokemonSlice = kitakamiPokemon.slice(0,3);
 
 //we've retrieved the URL for each Pokemon (including their variants)
 //now to seek out their stats
@@ -59,13 +53,11 @@ async function fetchKitakamiPokemonData(kitakamiPokemonSlice) {
 	return kitakamiPokemonData;
 }
 
-let kitakamiPokemonDatasets = await fetchKitakamiPokemonData(kitakamiPokemonSlice)
-
 async function writeKitakamiData(kitakamiPokemonDatasets) {
 
 	for (let dataset of kitakamiPokemonDatasets) {
 		//not sure about using relative paths but sticking with it for now
-		const fileName = '../data/pokemonStats/' + dataset.name + '.json';
+		const fileName = '../data/pokemonStats/kitakami/' + dataset.name + '.json';
 		const fileContents = JSON.stringify(dataset, null, 2);
 		writeFile(fileName, fileContents, (err) => {
 			if (err) throw err;
@@ -78,6 +70,11 @@ async function main() {
 	await writeKitakamiData(kitakamiPokemonDatasets);
 }
 
+let kitakamiSpeciesUrls = await fetchKitakamiSpeciesUrls();
+let kitakamiPokemon = await fetchKitakamiPokemonUrls(kitakamiSpeciesUrls);
+//for now we're only passing through the first few items of the array for easier output handling
+let kitakamiPokemonSlice = kitakamiPokemon.slice(0,3);
+let kitakamiPokemonDatasets = await fetchKitakamiPokemonData(kitakamiPokemonSlice)
 main();
 
 /*
