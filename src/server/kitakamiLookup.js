@@ -65,7 +65,7 @@ async function writeKitakamiData(kitakamiPokemonDatasets) {
 
 	for (let dataset of kitakamiPokemonDatasets) {
 		const fileName = dataset.name + '.json';
-		const fileContents = JSON.stringify(dataset);
+		const fileContents = JSON.stringify(dataset, null, 2);
 		writeFile(fileName, fileContents, (err) => {
 			if (err) throw err;
 			console.log('File saved?');
@@ -79,30 +79,7 @@ async function main() {
 
 main();
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
-async function printKitakamiStats(kitakamiPokemonDatasets) {
-	for(const dataset of kitakamiPokemonDatasets) {
-		console.log(dataset.name, dataset.url);
-	}
-}
-
-fetchKitakamiData(kitakamiPokemonSlice)
-  .then((kitakamiPokemonDatasets) => {
-    printKitakamiStats(kitakamiPokemonDatasets);
-  });
-
 //const kitakamiStatsArrays = await fetchKitakamiData(kitakamiPokemonSlice);
 //const finalStatsJson = JSON.stringify(finalStats);
 //proof of concept, we should see the name and stats of the first Pokemon returned!
