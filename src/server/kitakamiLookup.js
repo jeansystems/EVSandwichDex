@@ -64,7 +64,8 @@ let kitakamiPokemonDatasets = await fetchKitakamiPokemonData(kitakamiPokemonSlic
 async function writeKitakamiData(kitakamiPokemonDatasets) {
 
 	for (let dataset of kitakamiPokemonDatasets) {
-		const fileName = dataset.name + '.json';
+		//not sure about using relative paths but sticking with it for now
+		const fileName = '../data/pokemonStats/' + dataset.name + '.json';
 		const fileContents = JSON.stringify(dataset, null, 2);
 		writeFile(fileName, fileContents, (err) => {
 			if (err) throw err;
