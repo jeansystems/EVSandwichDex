@@ -73,6 +73,6 @@ async function main() {
 let paldeaSpeciesUrls = await fetchKitakamiSpeciesUrls();
 let paldeaPokemon = await fetchKitakamiPokemonUrls(paldeaSpeciesUrls);
 //for now we're only passing through the first few items of the array for easier output handling
-let paldeaPokemonSlice = paldeaPokemon.slice(0,3);
+let paldeaPokemonSlice = paldeaPokemon.slice(0,10);
 let paldeaPokemonDatasets = await fetchKitakamiPokemonData(paldeaPokemonSlice)
 main();

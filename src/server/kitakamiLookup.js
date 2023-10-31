@@ -73,7 +73,7 @@ async function main() {
 let kitakamiSpeciesUrls = await fetchKitakamiSpeciesUrls();
 let kitakamiPokemon = await fetchKitakamiPokemonUrls(kitakamiSpeciesUrls);
 //for now we're only passing through the first few items of the array for easier output handling
-let kitakamiPokemonSlice = kitakamiPokemon.slice(0,3);
+let kitakamiPokemonSlice = kitakamiPokemon.slice(0,10);
 let kitakamiPokemonDatasets = await fetchKitakamiPokemonData(kitakamiPokemonSlice)
 main();
 
