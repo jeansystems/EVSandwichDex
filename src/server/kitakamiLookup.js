@@ -1,5 +1,7 @@
 //todo: create try/catch blocks for API requests
 
+import { writeFile } from 'node:fs';
+
 const kitakamiPokedex = "https://pokeapi.co/api/v2/pokedex/32"
 
 //variable naming is tedious, should consider alternatives
@@ -39,12 +41,11 @@ let kitakamiPokemon = await fetchKitakamiPokemonUrls(kitakamiSpeciesUrls);
 //for now we're only passing through the first few items of the array for easier output handling
 let kitakamiPokemonSlice = kitakamiPokemon.slice(0,3);
 
-
 //we've retrieved the URL for each Pokemon (including their variants)
 //now to seek out their stats
-async function fetchKitakamiStats(kitakamiPokemonSlice) {
+async function fetchKitakamiPokemonData(kitakamiPokemonSlice) {
 
-	let kitakamiStats = [];
+	let kitakamiPokemonData = [];
 
 	const responses = await Promise.all(kitakamiPokemonSlice.map (async (pokemon_data) => {
 		const response = await fetch(pokemon_data);
@@ -53,13 +54,61 @@ async function fetchKitakamiStats(kitakamiPokemonSlice) {
 		//const name = result.name;
 		//const stats = result.stats;
 		//kitakamiStats.push({ name, stats });
-		kitakamiStats.push(result);
+		kitakamiPokemonData.push(result);
 	}));
-	return kitakamiStats;
+	return kitakamiPokemonData;
 }
 
-const finalStats = await fetchKitakamiStats(kitakamiPokemonSlice);
-const finalStatsJson = JSON.stringify(finalStats);
-console.log(finalStatsJson);
+let kitakamiPokemonDatasets = await fetchKitakamiPokemonData(kitakamiPokemonSlice)
+
+async function writeKitakamiData(kitakamiPokemonDatasets) {
+
+	for (let dataset of kitakamiPokemonDatasets) {
+		const fileName = dataset.name + '.json';
+		const fileContents = JSON.stringify(dataset);
+		writeFile(fileName, fileContents, (err) => {
+			if (err) throw err;
+			console.log('File saved?');
+		});
+	}
+}
+
+async function main() {
+	await writeKitakamiData(kitakamiPokemonDatasets);
+}
+
+main();
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+async function printKitakamiStats(kitakamiPokemonDatasets) {
+	for(const dataset of kitakamiPokemonDatasets) {
+		console.log(dataset.name, dataset.url);
+	}
+}
+
+fetchKitakamiData(kitakamiPokemonSlice)
+  .then((kitakamiPokemonDatasets) => {
+    printKitakamiStats(kitakamiPokemonDatasets);
+  });
+
+//const kitakamiStatsArrays = await fetchKitakamiData(kitakamiPokemonSlice);
+//const finalStatsJson = JSON.stringify(finalStats);
 //proof of concept, we should see the name and stats of the first Pokemon returned!
 //console.log(finalStats[0].name, finalStats[0].stats);
+//finalStats.forEach((statsArray) => {
+//	console.log(statsArray.name);
+//})
+//we need to pass each item of the finalStats array 
+*/
