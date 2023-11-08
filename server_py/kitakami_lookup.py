@@ -15,6 +15,7 @@ def get_species_urls(POKEDEX):
 async def get_pokemon_datasets(species_url):
     async with httpx.AsyncClient() as client:
         resp = await client.get(species_url)
+        print(f"Gathering data for {species_url}")
         return resp.json()
 
 async def get_varieties_from_datasets(species_urls):
@@ -31,6 +32,7 @@ async def get_varieties_stats(variety_url):
     pokemon_url = variety_url["pokemon"]["url"]
     async with httpx.AsyncClient() as client:
         resp = await client.get(pokemon_url)
+        print(f"Data for {pokemon_url}")
         return resp.json()
 
 
@@ -39,7 +41,9 @@ async def parse_varieties_urls(varieties_urls):
     results = await asyncio.gather(*tasks)
     #finally we can build objects with the correct data from proper pokemon entries
     for result in results:
-        print(result["stats"])
+        stats = result["stats"]
+        name = result["name"].capitalize()
+        print(f"Pokemon {name} has the following stats block:\n{stats}")
 
 POKEDEX = 'https://pokeapi.co/api/v2/pokedex/32'
 species_urls = get_species_urls(POKEDEX)
