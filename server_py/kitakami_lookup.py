@@ -55,20 +55,16 @@ async def parse_varieties_urls(varieties_urls):
             "types": []
         }
 
-        for type in result["types"]:
-            type_slot = type["slot"]
-            type_name = type["type"]["name"]
+        for type_entry in result["types"]:
+            type_slot = type_entry["slot"]
+            type_name = type_entry["type"]["name"]
             type_list = {"slot": type_slot, "name": type_name}
             variety["types"].append(type_list)
-        variety_json = json.dumps({name: variety}, indent=2)
-        print(variety_json)
-        #varieties.append(variety)
-    
-    #varieties_json = json.dumps(varieties, indent=2)
-    #print(varieties_json)
+        #print(variety,type(variety))
+        varieties.append(variety)
+    print(varieties)
 
-            
-            
+
 
 POKEDEX = 'https://pokeapi.co/api/v2/pokedex/32'
 species_urls = get_species_urls(POKEDEX)
