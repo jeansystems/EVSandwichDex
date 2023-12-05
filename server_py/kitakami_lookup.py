@@ -67,7 +67,7 @@ async def parse_varieties_urls(varieties_urls):
         }
 
         pokemon_entries[pokemon_name] = pokemon_entry
-        return pokemon_entries
+    return pokemon_entries
  
 
 POKEDEX = 'https://pokeapi.co/api/v2/pokedex/32'
