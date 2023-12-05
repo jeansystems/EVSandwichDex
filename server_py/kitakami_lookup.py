@@ -10,7 +10,8 @@ import json
 def get_species_urls(POKEDEX):
     resp = httpx.get(POKEDEX)
     result = resp.json()
-    species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]][21:23]
+    species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]][20:24]
+    #species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]]
     return species_urls
 
 async def get_pokemon_datasets(species_url):
@@ -42,10 +43,9 @@ async def get_varieties_data(varieties_url):
 
 async def parse_varieties_urls(varieties_urls):
     tasks = [asyncio.create_task(get_varieties_data(varieties_url)) for varieties_url in varieties_urls]
-    varieties_dict = {}
+    varieties = []
     for coro in asyncio.as_completed(tasks):
         result = await coro
-
         id = result["id"]
         name = result["name"]
 
@@ -59,12 +59,13 @@ async def parse_varieties_urls(varieties_urls):
             type_slot = type["slot"]
             type_name = type["type"]["name"]
             type_list = {"slot": type_slot, "name": type_name}
-            print(type_list)
-            #variety["types"].append(type_list)
-
-
-        variety_json = json.dumps(variety, indent=2)
-        #print(variety_json)
+            variety["types"].append(type_list)
+        variety_json = json.dumps({name: variety}, indent=2)
+        print(variety_json)
+        #varieties.append(variety)
+    
+    #varieties_json = json.dumps(varieties, indent=2)
+    #print(varieties_json)
 
             
             
