@@ -1,7 +1,6 @@
 import httpx
 import asyncio
 import json
-import pprint
 
 #Breakdown of data transform according to PokeAPI lexicon:
 #Pokedex URL contains species URLs ->
@@ -11,7 +10,7 @@ import pprint
 def get_species_urls(POKEDEX):
     resp = httpx.get(POKEDEX)
     result = resp.json()
-    species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]][19:30]
+    species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]][30:32]
     #species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]]
     return species_urls
 
@@ -68,7 +67,8 @@ async def parse_varieties_urls(varieties_urls):
                         "yield": stat_entry["effort"]
                     }
                         for stat_entry in result["stats"]
-                ]
+                ],
+                "status_code": status_code
             }
 
             pokemon_entries[pokemon_name] = pokemon_entry
@@ -80,69 +80,6 @@ async def parse_varieties_urls(varieties_urls):
         #print(f"Processing {pokemon_name}...")
         #print(f"{pokemon_name} returned with status {status_code}")
     return pokemon_entries
-
-'''
-async def parse_varieties_urls(varieties_urls):
-    tasks = [asyncio.create_task(get_varieties_data(varieties_url)) for varieties_url in varieties_urls]
-    done, pending = await asyncio.wait(tasks, return_when=asyncio.ALL_COMPLETED)
-    pokemon_entries = {}
-
-    for did in done:
-        result = await did
-        pokemon_name = result["name"]
-        pokemon_entry = {
-            "id": result["id"],
-            "types": [
-                {
-                    "slot": type_entry["slot"],
-                    "name": type_entry["type"]["name"]
-                }
-                    for type_entry in result["types"]
-            ],
-            "stats": [
-                {
-                    "name": stat_entry["stat"]["name"],
-                    "yield": stat_entry["effort"]
-                }
-                    for stat_entry in result["stats"]
-            ]
-        }
-        pokemon_entries[pokemon_name] = pokemon_entry
-        print(f"processing {pokemon_name}")
-    return pokemon_entries
-    
-    for doing in pending:
-        pass
-
-async def parse_varieties_urls(varieties_urls):
-    tasks = [asyncio.create_task(get_varieties_data(varieties_url)) for varieties_url in varieties_urls]
-    pokemon_entries = {}
-    results = await asyncio.gather(*tasks)
-
-    for result in results:
-        pokemon_name = result["name"]
-        pokemon_entry = {
-            "id": result["id"],
-            "types": [
-                {
-                    "slot": type_entry["slot"], 
-                    "name": type_entry["type"]["name"]
-                } 
-                    for type_entry in result["types"]
-            ],
-            "stats": [
-                {
-                    "name": stat_entry["stat"]["name"],
-                    "yield": stat_entry["effort"]
-                }
-                    for stat_entry in result["stats"]
-            ]
-        }
-        pokemon_entries[pokemon_name] = pokemon_entry
-        print(f"processing {pokemon_name}")
-    
-    return pokemon_entries 
-'''
 
 async def main():
     POKEDEX = 'https://pokeapi.co/api/v2/pokedex/32'
