@@ -1,6 +1,7 @@
 import httpx
 import asyncio
 import json
+import pprint
 
 #Breakdown of data transform according to PokeAPI lexicon:
 #Pokedex URL contains species URLs ->
@@ -10,8 +11,8 @@ import json
 def get_species_urls(POKEDEX):
     resp = httpx.get(POKEDEX)
     result = resp.json()
-    species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]][45:47]
-    #species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]]
+    #species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]][20:22]
+    species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]]
     return species_urls
 
 async def get_pokemon_datasets(species_url):
@@ -24,21 +25,63 @@ async def get_varieties_from_datasets(species_urls):
     # Create tasks using list comprehension, sometimes executres too quickly and creates timeout errors.
     # tasks = [asyncio.create_task(get_pokemon_datasets(species_url)) for species_url in species_urls]
     # Instead, let's build a for loop that we can put a sleep in. Performance is not the priority here.
+    agg = {}
     for species_url in species_urls:
         task = asyncio.create_task(get_pokemon_datasets(species_url))
         # here's where we can fit a sleep
         #await asyncio.sleep(1)
         result = await task
         if result:
-            await parse_varieties_urls(result["varieties"])
+            agg.update(await parse_varieties_urls(result["varieties"]))
+            #await parse_varieties_urls(result["varieties"])
         else:
             print(f"1st fail")
+
+    return agg
 
 async def get_varieties_data(varieties_url):
     pokemon_url = varieties_url["pokemon"]["url"]
     async with httpx.AsyncClient() as client:
         resp = await client.get(pokemon_url)
         return resp.json()
+
+async def parse_varieties_urls(varieties_urls):
+    tasks = [asyncio.create_task(get_varieties_data(varieties_url)) for varieties_url in varieties_urls]
+    pokemon_entries = {}
+    results = await asyncio.gather(*tasks)
+
+    for result in results:
+        pokemon_name = result["name"]
+        pokemon_entry = {
+            "id": result["id"],
+            "types": [
+                {
+                    "slot": type_entry["slot"], 
+                    "name": type_entry["type"]["name"]
+                } 
+                    for type_entry in result["types"]
+            ],
+            "stats": [
+                {
+                    "name": stat_entry["stat"]["name"],
+                    "yield": stat_entry["effort"]
+                }
+                    for stat_entry in result["stats"]
+            ]
+        }
+        pokemon_entries[pokemon_name] = pokemon_entry
+    
+    return pokemon_entries
+    #pokemon_entries_json = json.dumps(pokemon_entries)
+    #print(pokemon_entries_json)
+        
+'''   
+    pokemon_entry[pokemon_name] = pokemon_list
+    pokemon_entries.update(pokemon_entry)
+    pokemon_entries_json = json.dumps(pokemon_entries)
+    print(pokemon_entries_json)
+        
+
 
 async def parse_varieties_urls(varieties_urls):
     tasks = [asyncio.create_task(get_varieties_data(varieties_url)) for varieties_url in varieties_urls]
@@ -67,12 +110,19 @@ async def parse_varieties_urls(varieties_urls):
         }
 
         pokemon_entries[pokemon_name] = pokemon_entry
-    return pokemon_entries
- 
+        print(pokemon_entries)
 
-POKEDEX = 'https://pokeapi.co/api/v2/pokedex/32'
-species_urls = get_species_urls(POKEDEX)
-asyncio.run(get_varieties_from_datasets(species_urls))
+    #pokemon_entries_json = json.dumps(pokemon_entries, indent=2)
+    #print(pokemon_entries_json)
+ '''
+async def main():
+    POKEDEX = 'https://pokeapi.co/api/v2/pokedex/32'
+    species_urls = get_species_urls(POKEDEX)
+    agg = await get_varieties_from_datasets(species_urls)
+    print(json.dumps(agg, indent=2))
+    #asyncio.run(get_varieties_from_datasets(species_urls))
+
+asyncio.run(main())
 
 '''
         id = results["id"]
