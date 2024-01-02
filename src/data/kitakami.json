@@ -1,0 +1,11351 @@
+{
+  "spinarak": {
+    "dex_numbers": {
+      "kitakami_dex": 1,
+      "species_id": 264
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ariados": {
+    "dex_numbers": {
+      "kitakami_dex": 2,
+      "species_id": 265
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "yanma": {
+    "dex_numbers": {
+      "kitakami_dex": 3,
+      "species_id": 289
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "yanmega": {
+    "dex_numbers": {
+      "kitakami_dex": 4,
+      "species_id": 290
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "wooper": {
+    "dex_numbers": {
+      "kitakami_dex": 5,
+      "species_id": 291
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 1
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "wooper-paldea": {
+    "dex_numbers": {
+      "kitakami_dex": 5,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 1
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "quagsire": {
+    "dex_numbers": {
+      "kitakami_dex": 6,
+      "species_id": 292
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "poochyena": {
+    "dex_numbers": {
+      "kitakami_dex": 7,
+      "species_id": 359
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mightyena": {
+    "dex_numbers": {
+      "kitakami_dex": 8,
+      "species_id": 360
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "volbeat": {
+    "dex_numbers": {
+      "kitakami_dex": 9,
+      "species_id": 421
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "illumise": {
+    "dex_numbers": {
+      "kitakami_dex": 10,
+      "species_id": 422
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "corphish": {
+    "dex_numbers": {
+      "kitakami_dex": 11,
+      "species_id": 454
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "crawdaunt": {
+    "dex_numbers": {
+      "kitakami_dex": 12,
+      "species_id": 455
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "dark"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "sewaddle": {
+    "dex_numbers": {
+      "kitakami_dex": 13,
+      "species_id": 656
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "swadloon": {
+    "dex_numbers": {
+      "kitakami_dex": 14,
+      "species_id": 657
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "leavanny": {
+    "dex_numbers": {
+      "kitakami_dex": 15,
+      "species_id": 658
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "cutiefly": {
+    "dex_numbers": {
+      "kitakami_dex": 16,
+      "species_id": 893
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "ribombee-totem": {
+    "dex_numbers": {
+      "kitakami_dex": 17,
+      "species_id": 895
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "ribombee": {
+    "dex_numbers": {
+      "kitakami_dex": 17,
+      "species_id": 894
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "ekans": {
+    "dex_numbers": {
+      "kitakami_dex": 18,
+      "species_id": 32
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "arbok": {
+    "dex_numbers": {
+      "kitakami_dex": 19,
+      "species_id": 33
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "pichu": {
+    "dex_numbers": {
+      "kitakami_dex": 20,
+      "species_id": 34
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 35
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-rock-star": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 37
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-cosplay": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 36
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-belle": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 38
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-alola-cap": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 47
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-original-cap": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 42
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-kalos-cap": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 46
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-phd": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 40
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-sinnoh-cap": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 44
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-gmax": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-partner-cap": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 48
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-hoenn-cap": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 43
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-pop-star": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 39
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-starter": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 49
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-unova-cap": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 45
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-world-cap": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 50
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "pikachu-libre": {
+    "dex_numbers": {
+      "kitakami_dex": 21,
+      "species_id": 41
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "raichu": {
+    "dex_numbers": {
+      "kitakami_dex": 22,
+      "species_id": 51
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 3
+      }
+    ],
+    "status_code": 200
+  },
+  "raichu-alola": {
+    "dex_numbers": {
+      "kitakami_dex": 22,
+      "species_id": 52
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      },
+      {
+        "slot": 2,
+        "name": "psychic"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 3
+      }
+    ],
+    "status_code": 200
+  },
+  "bellsprout": {
+    "dex_numbers": {
+      "kitakami_dex": 23,
+      "species_id": 110
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "weepinbell": {
+    "dex_numbers": {
+      "kitakami_dex": 24,
+      "species_id": 111
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "victreebel": {
+    "dex_numbers": {
+      "kitakami_dex": 25,
+      "species_id": 112
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "sentret": {
+    "dex_numbers": {
+      "kitakami_dex": 26,
+      "species_id": 258
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "furret": {
+    "dex_numbers": {
+      "kitakami_dex": 27,
+      "species_id": 259
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "starly": {
+    "dex_numbers": {
+      "kitakami_dex": 28,
+      "species_id": 527
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "staravia": {
+    "dex_numbers": {
+      "kitakami_dex": 29,
+      "species_id": 528
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "staraptor": {
+    "dex_numbers": {
+      "kitakami_dex": 30,
+      "species_id": 529
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "fomantis": {
+    "dex_numbers": {
+      "kitakami_dex": 31,
+      "species_id": 910
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lurantis-totem": {
+    "dex_numbers": {
+      "kitakami_dex": 32,
+      "species_id": 912
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lurantis": {
+    "dex_numbers": {
+      "kitakami_dex": 32,
+      "species_id": 911
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "applin": {
+    "dex_numbers": {
+      "kitakami_dex": 33,
+      "species_id": 1021
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "flapple": {
+    "dex_numbers": {
+      "kitakami_dex": 34,
+      "species_id": 1022
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "flapple-gmax": {
+    "dex_numbers": {
+      "kitakami_dex": 34,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "appletun-gmax": {
+    "dex_numbers": {
+      "kitakami_dex": 35,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "appletun": {
+    "dex_numbers": {
+      "kitakami_dex": 35,
+      "species_id": 1023
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "dipplin": {
+    "dex_numbers": {
+      "kitakami_dex": 36,
+      "species_id": 1095
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "vulpix": {
+    "dex_numbers": {
+      "kitakami_dex": 37,
+      "species_id": 66
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "vulpix-alola": {
+    "dex_numbers": {
+      "kitakami_dex": 37,
+      "species_id": 67
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "ninetales-alola": {
+    "dex_numbers": {
+      "kitakami_dex": 38,
+      "species_id": 69
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "ninetales": {
+    "dex_numbers": {
+      "kitakami_dex": 38,
+      "species_id": 68
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "poliwag": {
+    "dex_numbers": {
+      "kitakami_dex": 39,
+      "species_id": 99
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "poliwhirl": {
+    "dex_numbers": {
+      "kitakami_dex": 40,
+      "species_id": 100
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "poliwrath": {
+    "dex_numbers": {
+      "kitakami_dex": 41,
+      "species_id": 101
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 3
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "politoed": {
+    "dex_numbers": {
+      "kitakami_dex": 42,
+      "species_id": 102
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 3
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "magikarp": {
+    "dex_numbers": {
+      "kitakami_dex": 43,
+      "species_id": 210
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "gyarados": {
+    "dex_numbers": {
+      "kitakami_dex": 44,
+      "species_id": 211
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gyarados-mega": {
+    "dex_numbers": {
+      "kitakami_dex": 44,
+      "species_id": 212
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "dark"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "hoothoot": {
+    "dex_numbers": {
+      "kitakami_dex": 45,
+      "species_id": 260
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 1
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "noctowl": {
+    "dex_numbers": {
+      "kitakami_dex": 46,
+      "species_id": 261
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "aipom": {
+    "dex_numbers": {
+      "kitakami_dex": 47,
+      "species_id": 285
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "ambipom": {
+    "dex_numbers": {
+      "kitakami_dex": 48,
+      "species_id": 286
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "heracross": {
+    "dex_numbers": {
+      "kitakami_dex": 49,
+      "species_id": 310
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "heracross-mega": {
+    "dex_numbers": {
+      "kitakami_dex": 49,
+      "species_id": 311
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "swinub": {
+    "dex_numbers": {
+      "kitakami_dex": 50,
+      "species_id": 318
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "piloswine": {
+    "dex_numbers": {
+      "kitakami_dex": 51,
+      "species_id": 319
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 1
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mamoswine": {
+    "dex_numbers": {
+      "kitakami_dex": 52,
+      "species_id": 320
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "stantler": {
+    "dex_numbers": {
+      "kitakami_dex": 53,
+      "species_id": 334
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "seedot": {
+    "dex_numbers": {
+      "kitakami_dex": 54,
+      "species_id": 373
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "nuzleaf": {
+    "dex_numbers": {
+      "kitakami_dex": 55,
+      "species_id": 374
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "dark"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "shiftry": {
+    "dex_numbers": {
+      "kitakami_dex": 56,
+      "species_id": 375
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "dark"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ralts": {
+    "dex_numbers": {
+      "kitakami_dex": 57,
+      "species_id": 380
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "kirlia": {
+    "dex_numbers": {
+      "kitakami_dex": 58,
+      "species_id": 381
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gardevoir-mega": {
+    "dex_numbers": {
+      "kitakami_dex": 59,
+      "species_id": 383
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gardevoir": {
+    "dex_numbers": {
+      "kitakami_dex": 59,
+      "species_id": 382
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gallade-mega": {
+    "dex_numbers": {
+      "kitakami_dex": 60,
+      "species_id": 385
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gallade": {
+    "dex_numbers": {
+      "kitakami_dex": 60,
+      "species_id": 384
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "kricketot": {
+    "dex_numbers": {
+      "kitakami_dex": 61,
+      "species_id": 532
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "kricketune": {
+    "dex_numbers": {
+      "kitakami_dex": 62,
+      "species_id": 533
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "pachirisu": {
+    "dex_numbers": {
+      "kitakami_dex": 63,
+      "species_id": 548
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "riolu": {
+    "dex_numbers": {
+      "kitakami_dex": 64,
+      "species_id": 572
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lucario": {
+    "dex_numbers": {
+      "kitakami_dex": 65,
+      "species_id": 573
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      },
+      {
+        "slot": 2,
+        "name": "steel"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lucario-mega": {
+    "dex_numbers": {
+      "kitakami_dex": 65,
+      "species_id": 574
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      },
+      {
+        "slot": 2,
+        "name": "steel"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "petilil": {
+    "dex_numbers": {
+      "kitakami_dex": 66,
+      "species_id": 664
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lilligant": {
+    "dex_numbers": {
+      "kitakami_dex": 67,
+      "species_id": 665
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lilligant-hisui": {
+    "dex_numbers": {
+      "kitakami_dex": 67,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "phantump": {
+    "dex_numbers": {
+      "kitakami_dex": 68,
+      "species_id": 842
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "trevenant": {
+    "dex_numbers": {
+      "kitakami_dex": 69,
+      "species_id": 843
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "rockruff": {
+    "dex_numbers": {
+      "kitakami_dex": 70,
+      "species_id": 896
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "rockruff-own-tempo": {
+    "dex_numbers": {
+      "kitakami_dex": 70,
+      "species_id": 897
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lycanroc-midnight": {
+    "dex_numbers": {
+      "kitakami_dex": 71,
+      "species_id": 899
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lycanroc-dusk": {
+    "dex_numbers": {
+      "kitakami_dex": 71,
+      "species_id": 900
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lycanroc-midday": {
+    "dex_numbers": {
+      "kitakami_dex": 71,
+      "species_id": 898
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "skwovet": {
+    "dex_numbers": {
+      "kitakami_dex": 72,
+      "species_id": 1000
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 1
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "greedent": {
+    "dex_numbers": {
+      "kitakami_dex": 73,
+      "species_id": 1001
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "toedscool": {
+    "dex_numbers": {
+      "kitakami_dex": 74,
+      "species_id": 1006
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ground"
+      },
+      {
+        "slot": 2,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "toedscruel": {
+    "dex_numbers": {
+      "kitakami_dex": 75,
+      "species_id": 1007
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ground"
+      },
+      {
+        "slot": 2,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "poltchageist": {
+    "dex_numbers": {
+      "kitakami_dex": 76,
+      "species_id": 1096
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "ghost"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "sinistcha": {
+    "dex_numbers": {
+      "kitakami_dex": 77,
+      "species_id": 1097
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "ghost"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "growlithe-hisui": {
+    "dex_numbers": {
+      "kitakami_dex": 78,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fire"
+      },
+      {
+        "slot": 2,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "growlithe": {
+    "dex_numbers": {
+      "kitakami_dex": 78,
+      "species_id": 97
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "arcanine-hisui": {
+    "dex_numbers": {
+      "kitakami_dex": 79,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fire"
+      },
+      {
+        "slot": 2,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "arcanine": {
+    "dex_numbers": {
+      "kitakami_dex": 79,
+      "species_id": 98
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "geodude": {
+    "dex_numbers": {
+      "kitakami_dex": 80,
+      "species_id": 115
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "geodude-alola": {
+    "dex_numbers": {
+      "kitakami_dex": 80,
+      "species_id": 116
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      },
+      {
+        "slot": 2,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "graveler-alola": {
+    "dex_numbers": {
+      "kitakami_dex": 81,
+      "species_id": 118
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      },
+      {
+        "slot": 2,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "graveler": {
+    "dex_numbers": {
+      "kitakami_dex": 81,
+      "species_id": 117
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "golem": {
+    "dex_numbers": {
+      "kitakami_dex": 82,
+      "species_id": 119
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 3
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "golem-alola": {
+    "dex_numbers": {
+      "kitakami_dex": 82,
+      "species_id": 120
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      },
+      {
+        "slot": 2,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 3
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "bonsly": {
+    "dex_numbers": {
+      "kitakami_dex": 83,
+      "species_id": 280
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "sudowoodo": {
+    "dex_numbers": {
+      "kitakami_dex": 84,
+      "species_id": 281
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "timburr": {
+    "dex_numbers": {
+      "kitakami_dex": 85,
+      "species_id": 648
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gurdurr": {
+    "dex_numbers": {
+      "kitakami_dex": 86,
+      "species_id": 649
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "conkeldurr": {
+    "dex_numbers": {
+      "kitakami_dex": 87,
+      "species_id": 650
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "noibat": {
+    "dex_numbers": {
+      "kitakami_dex": 88,
+      "species_id": 854
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "flying"
+      },
+      {
+        "slot": 2,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "noivern": {
+    "dex_numbers": {
+      "kitakami_dex": 89,
+      "species_id": 855
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "flying"
+      },
+      {
+        "slot": 2,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "arrokuda": {
+    "dex_numbers": {
+      "kitakami_dex": 90,
+      "species_id": 1029
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "barraskewda": {
+    "dex_numbers": {
+      "kitakami_dex": 91,
+      "species_id": 1030
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "hatenna": {
+    "dex_numbers": {
+      "kitakami_dex": 92,
+      "species_id": 1040
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "hattrem": {
+    "dex_numbers": {
+      "kitakami_dex": 93,
+      "species_id": 1041
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "hatterene-gmax": {
+    "dex_numbers": {
+      "kitakami_dex": 94,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "hatterene": {
+    "dex_numbers": {
+      "kitakami_dex": 94,
+      "species_id": 1042
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "morpeko-full-belly": {
+    "dex_numbers": {
+      "kitakami_dex": 95,
+      "species_id": 1063
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      },
+      {
+        "slot": 2,
+        "name": "dark"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "morpeko-hangry": {
+    "dex_numbers": {
+      "kitakami_dex": 95,
+      "species_id": 1064
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      },
+      {
+        "slot": 2,
+        "name": "dark"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "orthworm": {
+    "dex_numbers": {
+      "kitakami_dex": 96,
+      "species_id": 944
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "steel"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "tandemaus": {
+    "dex_numbers": {
+      "kitakami_dex": 97,
+      "species_id": 945
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "maushold": {
+    "dex_numbers": {
+      "kitakami_dex": 98,
+      "species_id": 946
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "maushold-family-of-three": {
+    "dex_numbers": {
+      "kitakami_dex": 98,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "mankey": {
+    "dex_numbers": {
+      "kitakami_dex": 99,
+      "species_id": 95
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "primeape": {
+    "dex_numbers": {
+      "kitakami_dex": 100,
+      "species_id": 96
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "annihilape": {
+    "dex_numbers": {
+      "kitakami_dex": 101,
+      "species_id": 1010
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      },
+      {
+        "slot": 2,
+        "name": "ghost"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "munchlax": {
+    "dex_numbers": {
+      "kitakami_dex": 102,
+      "species_id": 234
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 1
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "snorlax-gmax": {
+    "dex_numbers": {
+      "kitakami_dex": 103,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "snorlax": {
+    "dex_numbers": {
+      "kitakami_dex": 103,
+      "species_id": 235
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lotad": {
+    "dex_numbers": {
+      "kitakami_dex": 104,
+      "species_id": 370
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lombre": {
+    "dex_numbers": {
+      "kitakami_dex": 105,
+      "species_id": 371
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ludicolo": {
+    "dex_numbers": {
+      "kitakami_dex": 106,
+      "species_id": 372
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 3
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "nosepass": {
+    "dex_numbers": {
+      "kitakami_dex": 107,
+      "species_id": 401
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "probopass": {
+    "dex_numbers": {
+      "kitakami_dex": 108,
+      "species_id": 402
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      },
+      {
+        "slot": 2,
+        "name": "steel"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "shinx": {
+    "dex_numbers": {
+      "kitakami_dex": 109,
+      "species_id": 534
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "luxio": {
+    "dex_numbers": {
+      "kitakami_dex": 110,
+      "species_id": 535
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "luxray": {
+    "dex_numbers": {
+      "kitakami_dex": 111,
+      "species_id": 536
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "grubbin": {
+    "dex_numbers": {
+      "kitakami_dex": 112,
+      "species_id": 883
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "charjabug": {
+    "dex_numbers": {
+      "kitakami_dex": 113,
+      "species_id": 884
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "vikavolt-totem": {
+    "dex_numbers": {
+      "kitakami_dex": 114,
+      "species_id": 886
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "vikavolt": {
+    "dex_numbers": {
+      "kitakami_dex": 114,
+      "species_id": 885
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "oricorio-pom-pom": {
+    "dex_numbers": {
+      "kitakami_dex": 115,
+      "species_id": 890
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "oricorio-baile": {
+    "dex_numbers": {
+      "kitakami_dex": 115,
+      "species_id": 889
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fire"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "oricorio-sensu": {
+    "dex_numbers": {
+      "kitakami_dex": 115,
+      "species_id": 892
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "oricorio-pau": {
+    "dex_numbers": {
+      "kitakami_dex": 115,
+      "species_id": 891
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "sandshrew": {
+    "dex_numbers": {
+      "kitakami_dex": 116,
+      "species_id": 53
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "sandshrew-alola": {
+    "dex_numbers": {
+      "kitakami_dex": 116,
+      "species_id": 54
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      },
+      {
+        "slot": 2,
+        "name": "steel"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "sandslash": {
+    "dex_numbers": {
+      "kitakami_dex": 117,
+      "species_id": 55
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "sandslash-alola": {
+    "dex_numbers": {
+      "kitakami_dex": 117,
+      "species_id": 56
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      },
+      {
+        "slot": 2,
+        "name": "steel"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gastly": {
+    "dex_numbers": {
+      "kitakami_dex": 118,
+      "species_id": 147
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "haunter": {
+    "dex_numbers": {
+      "kitakami_dex": 119,
+      "species_id": 148
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gengar-mega": {
+    "dex_numbers": {
+      "kitakami_dex": 120,
+      "species_id": 150
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gengar": {
+    "dex_numbers": {
+      "kitakami_dex": 120,
+      "species_id": 149
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gengar-gmax": {
+    "dex_numbers": {
+      "kitakami_dex": 120,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gligar": {
+    "dex_numbers": {
+      "kitakami_dex": 121,
+      "species_id": 304
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ground"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gliscor": {
+    "dex_numbers": {
+      "kitakami_dex": 122,
+      "species_id": 305
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ground"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "houndour": {
+    "dex_numbers": {
+      "kitakami_dex": 123,
+      "species_id": 329
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "houndoom": {
+    "dex_numbers": {
+      "kitakami_dex": 124,
+      "species_id": 330
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "houndoom-mega": {
+    "dex_numbers": {
+      "kitakami_dex": 124,
+      "species_id": 331
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "spoink": {
+    "dex_numbers": {
+      "kitakami_dex": 125,
+      "species_id": 437
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "grumpig": {
+    "dex_numbers": {
+      "kitakami_dex": 126,
+      "species_id": 438
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "vullaby": {
+    "dex_numbers": {
+      "kitakami_dex": 127,
+      "species_id": 752
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mandibuzz": {
+    "dex_numbers": {
+      "kitakami_dex": 128,
+      "species_id": 753
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mudbray": {
+    "dex_numbers": {
+      "kitakami_dex": 129,
+      "species_id": 905
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mudsdale": {
+    "dex_numbers": {
+      "kitakami_dex": 130,
+      "species_id": 906
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "jangmo-o": {
+    "dex_numbers": {
+      "kitakami_dex": 131,
+      "species_id": 958
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "hakamo-o": {
+    "dex_numbers": {
+      "kitakami_dex": 132,
+      "species_id": 959
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      },
+      {
+        "slot": 2,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "kommo-o-totem": {
+    "dex_numbers": {
+      "kitakami_dex": 133,
+      "species_id": 961
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      },
+      {
+        "slot": 2,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 3
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "kommo-o": {
+    "dex_numbers": {
+      "kitakami_dex": 133,
+      "species_id": 960
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      },
+      {
+        "slot": 2,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 3
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "bombirdier": {
+    "dex_numbers": {
+      "kitakami_dex": 134,
+      "species_id": 959
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "flying"
+      },
+      {
+        "slot": 2,
+        "name": "dark"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "koffing": {
+    "dex_numbers": {
+      "kitakami_dex": 135,
+      "species_id": 173
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "weezing-galar": {
+    "dex_numbers": {
+      "kitakami_dex": 136,
+      "species_id": 175
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "weezing": {
+    "dex_numbers": {
+      "kitakami_dex": 136,
+      "species_id": 174
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mienfoo": {
+    "dex_numbers": {
+      "kitakami_dex": 137,
+      "species_id": 742
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mienshao": {
+    "dex_numbers": {
+      "kitakami_dex": 138,
+      "species_id": 743
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "duskull": {
+    "dex_numbers": {
+      "kitakami_dex": 139,
+      "species_id": 472
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "dusclops": {
+    "dex_numbers": {
+      "kitakami_dex": 140,
+      "species_id": 473
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "dusknoir": {
+    "dex_numbers": {
+      "kitakami_dex": 141,
+      "species_id": 474
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "chingling": {
+    "dex_numbers": {
+      "kitakami_dex": 142,
+      "species_id": 476
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "chimecho": {
+    "dex_numbers": {
+      "kitakami_dex": 143,
+      "species_id": 477
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "slugma": {
+    "dex_numbers": {
+      "kitakami_dex": 144,
+      "species_id": 316
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "magcargo": {
+    "dex_numbers": {
+      "kitakami_dex": 145,
+      "species_id": 317
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fire"
+      },
+      {
+        "slot": 2,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 2
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "litwick": {
+    "dex_numbers": {
+      "kitakami_dex": 146,
+      "species_id": 729
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "lampent": {
+    "dex_numbers": {
+      "kitakami_dex": 147,
+      "species_id": 730
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "chandelure": {
+    "dex_numbers": {
+      "kitakami_dex": 148,
+      "species_id": 731
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "surskit": {
+    "dex_numbers": {
+      "kitakami_dex": 149,
+      "species_id": 386
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "masquerain": {
+    "dex_numbers": {
+      "kitakami_dex": 150,
+      "species_id": 387
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "cleffa": {
+    "dex_numbers": {
+      "kitakami_dex": 151,
+      "species_id": 63
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "clefairy": {
+    "dex_numbers": {
+      "kitakami_dex": 152,
+      "species_id": 64
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "clefable": {
+    "dex_numbers": {
+      "kitakami_dex": 153,
+      "species_id": 65
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 3
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "bronzor": {
+    "dex_numbers": {
+      "kitakami_dex": 154,
+      "species_id": 564
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "steel"
+      },
+      {
+        "slot": 2,
+        "name": "psychic"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "bronzong": {
+    "dex_numbers": {
+      "kitakami_dex": 155,
+      "species_id": 565
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "steel"
+      },
+      {
+        "slot": 2,
+        "name": "psychic"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "glimmet": {
+    "dex_numbers": {
+      "kitakami_dex": 156,
+      "species_id": 966
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "glimmora": {
+    "dex_numbers": {
+      "kitakami_dex": 157,
+      "species_id": 967
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "feebas": {
+    "dex_numbers": {
+      "kitakami_dex": 158,
+      "species_id": 462
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "milotic": {
+    "dex_numbers": {
+      "kitakami_dex": 159,
+      "species_id": 463
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "dunsparce": {
+    "dex_numbers": {
+      "kitakami_dex": 160,
+      "species_id": 303
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 1
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "dudunsparce-three-segment": {
+    "dex_numbers": {
+      "kitakami_dex": 161,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "dudunsparce": {
+    "dex_numbers": {
+      "kitakami_dex": 161,
+      "species_id": 917
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "barboach": {
+    "dex_numbers": {
+      "kitakami_dex": 162,
+      "species_id": 452
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 1
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "whiscash": {
+    "dex_numbers": {
+      "kitakami_dex": 163,
+      "species_id": 453
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gible": {
+    "dex_numbers": {
+      "kitakami_dex": 164,
+      "species_id": 568
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "gabite": {
+    "dex_numbers": {
+      "kitakami_dex": 165,
+      "species_id": 569
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "garchomp-mega": {
+    "dex_numbers": {
+      "kitakami_dex": 166,
+      "species_id": 571
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "garchomp": {
+    "dex_numbers": {
+      "kitakami_dex": 166,
+      "species_id": 570
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      },
+      {
+        "slot": 2,
+        "name": "ground"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "carbink": {
+    "dex_numbers": {
+      "kitakami_dex": 167,
+      "species_id": 837
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "rock"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 1
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "salandit": {
+    "dex_numbers": {
+      "kitakami_dex": 168,
+      "species_id": 915
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      },
+      {
+        "slot": 2,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "salazzle-totem": {
+    "dex_numbers": {
+      "kitakami_dex": 169,
+      "species_id": 917
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      },
+      {
+        "slot": 2,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "salazzle": {
+    "dex_numbers": {
+      "kitakami_dex": 169,
+      "species_id": 916
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      },
+      {
+        "slot": 2,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "sneasel": {
+    "dex_numbers": {
+      "kitakami_dex": 170,
+      "species_id": 312
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "ice"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "sneasel-hisui": {
+    "dex_numbers": {
+      "kitakami_dex": 170,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "fighting"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "weavile": {
+    "dex_numbers": {
+      "kitakami_dex": 171,
+      "species_id": 313
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "ice"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "snorunt": {
+    "dex_numbers": {
+      "kitakami_dex": 172,
+      "species_id": 480
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 1
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "glalie-mega": {
+    "dex_numbers": {
+      "kitakami_dex": 173,
+      "species_id": 482
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "glalie": {
+    "dex_numbers": {
+      "kitakami_dex": 173,
+      "species_id": 481
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "froslass": {
+    "dex_numbers": {
+      "kitakami_dex": 174,
+      "species_id": 483
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ice"
+      },
+      {
+        "slot": 2,
+        "name": "ghost"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "tynamo": {
+    "dex_numbers": {
+      "kitakami_dex": 175,
+      "species_id": 724
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 1
+      }
+    ],
+    "status_code": 200
+  },
+  "eelektrik": {
+    "dex_numbers": {
+      "kitakami_dex": 176,
+      "species_id": 725
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "eelektross": {
+    "dex_numbers": {
+      "kitakami_dex": 177,
+      "species_id": 726
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "electric"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "goomy": {
+    "dex_numbers": {
+      "kitakami_dex": 178,
+      "species_id": 838
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 1
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "sliggoo-hisui": {
+    "dex_numbers": {
+      "kitakami_dex": 179,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "steel"
+      },
+      {
+        "slot": 2,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "sliggoo": {
+    "dex_numbers": {
+      "kitakami_dex": 179,
+      "species_id": 839
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "goodra": {
+    "dex_numbers": {
+      "kitakami_dex": 180,
+      "species_id": 840
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 3
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "goodra-hisui": {
+    "dex_numbers": {
+      "kitakami_dex": 180,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "steel"
+      },
+      {
+        "slot": 2,
+        "name": "dragon"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 3
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ducklett": {
+    "dex_numbers": {
+      "kitakami_dex": 181,
+      "species_id": 702
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 1
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "swanna": {
+    "dex_numbers": {
+      "kitakami_dex": 182,
+      "species_id": 703
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "chewtle": {
+    "dex_numbers": {
+      "kitakami_dex": 183,
+      "species_id": 1014
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "drednaw": {
+    "dex_numbers": {
+      "kitakami_dex": 184,
+      "species_id": 1015
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "drednaw-gmax": {
+    "dex_numbers": {
+      "kitakami_dex": 184,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "cramorant": {
+    "dex_numbers": {
+      "kitakami_dex": 185,
+      "species_id": 1026
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "flying"
+      },
+      {
+        "slot": 2,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "cramorant-gulping": {
+    "dex_numbers": {
+      "kitakami_dex": 185,
+      "species_id": 1027
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "flying"
+      },
+      {
+        "slot": 2,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "cramorant-gorging": {
+    "dex_numbers": {
+      "kitakami_dex": 185,
+      "species_id": 1028
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "flying"
+      },
+      {
+        "slot": 2,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "pawniard": {
+    "dex_numbers": {
+      "kitakami_dex": 186,
+      "species_id": 747
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "steel"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "bisharp": {
+    "dex_numbers": {
+      "kitakami_dex": 187,
+      "species_id": 748
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "steel"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "kingambit": {
+    "dex_numbers": {
+      "kitakami_dex": 188,
+      "species_id": 1008
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "steel"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mimikyu-disguised": {
+    "dex_numbers": {
+      "kitakami_dex": 189,
+      "species_id": 951
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mimikyu-totem-disguised": {
+    "dex_numbers": {
+      "kitakami_dex": 189,
+      "species_id": 953
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mimikyu-totem-busted": {
+    "dex_numbers": {
+      "kitakami_dex": 189,
+      "species_id": 954
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "mimikyu-busted": {
+    "dex_numbers": {
+      "kitakami_dex": 189,
+      "species_id": 952
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ghost"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "impidimp": {
+    "dex_numbers": {
+      "kitakami_dex": 190,
+      "species_id": 1043
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 1
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "morgrem": {
+    "dex_numbers": {
+      "kitakami_dex": 191,
+      "species_id": 1044
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "grimmsnarl-gmax": {
+    "dex_numbers": {
+      "kitakami_dex": 192,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "grimmsnarl": {
+    "dex_numbers": {
+      "kitakami_dex": 192,
+      "species_id": 1045
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "dark"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "indeedee-female": {
+    "dex_numbers": {
+      "kitakami_dex": 193,
+      "species_id": 1062
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 2
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "indeedee-male": {
+    "dex_numbers": {
+      "kitakami_dex": 193,
+      "species_id": 1061
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "psychic"
+      },
+      {
+        "slot": 2,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 2
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "basculin-red-striped": {
+    "dex_numbers": {
+      "kitakami_dex": 194,
+      "species_id": 666
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "basculin-white-striped": {
+    "dex_numbers": {
+      "kitakami_dex": 194,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "basculin-blue-striped": {
+    "dex_numbers": {
+      "kitakami_dex": 194,
+      "species_id": 667
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "basculegion-female": {
+    "dex_numbers": {
+      "kitakami_dex": 195,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "ghost"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "basculegion-male": {
+    "dex_numbers": {
+      "kitakami_dex": 195,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      },
+      {
+        "slot": 2,
+        "name": "ghost"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 2
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ursaluna": {
+    "dex_numbers": {
+      "kitakami_dex": 196,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ground"
+      },
+      {
+        "slot": 2,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ursaluna-bloodmoon": {
+    "dex_numbers": {
+      "kitakami_dex": 196,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "ground"
+      },
+      {
+        "slot": 2,
+        "name": "normal"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "okidogi": {
+    "dex_numbers": {
+      "kitakami_dex": 197,
+      "species_id": 1098
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      },
+      {
+        "slot": 2,
+        "name": "fighting"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "munkidori": {
+    "dex_numbers": {
+      "kitakami_dex": 198,
+      "species_id": 1099
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      },
+      {
+        "slot": 2,
+        "name": "psychic"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 3
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "fezandipiti": {
+    "dex_numbers": {
+      "kitakami_dex": 199,
+      "species_id": 1100
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "poison"
+      },
+      {
+        "slot": 2,
+        "name": "fairy"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 3
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ogerpon-wellspring-mask": {
+    "dex_numbers": {
+      "kitakami_dex": 200,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ogerpon-cornerstone-mask": {
+    "dex_numbers": {
+      "kitakami_dex": 200,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "rock"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ogerpon-hearthflame-mask": {
+    "dex_numbers": {
+      "kitakami_dex": 200,
+      "species_id": -1
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      },
+      {
+        "slot": 2,
+        "name": "fire"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ogerpon": {
+    "dex_numbers": {
+      "kitakami_dex": 200,
+      "species_id": 1101
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "grass"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 3
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  }
+}
