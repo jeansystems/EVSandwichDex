@@ -13,30 +13,16 @@ def get_species_urls(POKEDEX):
     resp = httpx.get(POKEDEX)
     result = resp.json()
 
-    species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]][193:196]
-    pokedex_nums = [entry["entry_number"] for entry in result["pokemon_entries"]][193:196]
+    species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]][193:197]
+    pokedex_nums = [entry["entry_number"] for entry in result["pokemon_entries"]][193:197]
 
     return species_urls, pokedex_nums
 
 async def get_pokemon_datasets(species_url):
     async with httpx.AsyncClient() as client:
         resp = await client.get(species_url)
-        #print(f"Gathering data for {species_url}")
-        #return resp.json()
         result = resp.json()
-
-        pokedex_numbers = result["pokedex_numbers"]
-        for number in pokedex_numbers:
-            if number["pokedex"]["name"] == "national":
-                dex_name = number["pokedex"]["name"]
-                entry_num = number["entry_number"]
-                print(f"{dex_name}: {entry_num}")
-
-            if number["pokedex"]["name"] == "kitakami":
-                dex_name = number["pokedex"]["name"]
-                entry_num = number["entry_number"]
-                print(f"{dex_name}: {entry_num}")
-        #return result
+        return result
 
 async def get_varieties_from_datasets(species_urls, pokedex_nums):
     # Create tasks using list comprehension, sometimes executres too quickly and creates timeout errors.
@@ -107,15 +93,14 @@ async def main():
     POKEDEX = 'https://pokeapi.co/api/v2/pokedex/32'
     species_urls, pokedex_nums = get_species_urls(POKEDEX)
     aggregated_pokemon_entries = await get_varieties_from_datasets(species_urls, pokedex_nums)
-    print(aggregated_pokemon_entries)
-    '''
+
     aggregated_json = json.dumps(aggregated_pokemon_entries, indent=2)
     script_dir = os.path.dirname(os.path.abspath(__file__))
     relative_path = '../src/data/kitakami.json'
     output_path = os.path.normpath(os.path.join(script_dir,relative_path))
     with open(output_path, "w") as file:
         file.write(aggregated_json)
-    '''
+
 
 
 asyncio.run(main())
