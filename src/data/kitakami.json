@@ -1,12 +1,106 @@
 {
-  "basculin-blue-striped": {
+  "spinarak": {
     "dex_numbers": {
-      "species_id": 667
+      "national": 167,
+      "kitakami": 1,
+      "species_id": 264
     },
     "types": [
       {
         "slot": 1,
-        "name": "water"
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 1
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "ariados": {
+    "dex_numbers": {
+      "national": 168,
+      "kitakami": 2,
+      "species_id": 265
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "poison"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 2
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 0
+      }
+    ],
+    "status_code": 200
+  },
+  "yanma": {
+    "dex_numbers": {
+      "national": 193,
+      "kitakami": 3,
+      "species_id": 289
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
       }
     ],
     "stats": [
@@ -32,19 +126,25 @@
       },
       {
         "name": "speed",
-        "yield": 2
+        "yield": 1
       }
     ],
     "status_code": 200
   },
-  "basculin-red-striped": {
+  "yanmega": {
     "dex_numbers": {
-      "species_id": 666
+      "national": 469,
+      "kitakami": 4,
+      "species_id": 290
     },
     "types": [
       {
         "slot": 1,
-        "name": "water"
+        "name": "bug"
+      },
+      {
+        "slot": 2,
+        "name": "flying"
       }
     ],
     "stats": [
@@ -54,7 +154,7 @@
       },
       {
         "name": "attack",
-        "yield": 0
+        "yield": 2
       },
       {
         "name": "defense",
@@ -70,52 +170,16 @@
       },
       {
         "name": "speed",
-        "yield": 2
+        "yield": 0
       }
     ],
     "status_code": 200
   },
-  "basculin-white-striped": {
+  "wooper": {
     "dex_numbers": {
-      "species_id": -1
-    },
-    "types": [
-      {
-        "slot": 1,
-        "name": "water"
-      }
-    ],
-    "stats": [
-      {
-        "name": "hp",
-        "yield": 0
-      },
-      {
-        "name": "attack",
-        "yield": 0
-      },
-      {
-        "name": "defense",
-        "yield": 0
-      },
-      {
-        "name": "special-attack",
-        "yield": 0
-      },
-      {
-        "name": "special-defense",
-        "yield": 0
-      },
-      {
-        "name": "speed",
-        "yield": 2
-      }
-    ],
-    "status_code": 200
-  },
-  "basculegion-male": {
-    "dex_numbers": {
-      "species_id": -1
+      "national": 194,
+      "kitakami": 5,
+      "species_id": 291
     },
     "types": [
       {
@@ -124,101 +188,17 @@
       },
       {
         "slot": 2,
-        "name": "ghost"
-      }
-    ],
-    "stats": [
-      {
-        "name": "hp",
-        "yield": 2
-      },
-      {
-        "name": "attack",
-        "yield": 0
-      },
-      {
-        "name": "defense",
-        "yield": 0
-      },
-      {
-        "name": "special-attack",
-        "yield": 0
-      },
-      {
-        "name": "special-defense",
-        "yield": 0
-      },
-      {
-        "name": "speed",
-        "yield": 0
-      }
-    ],
-    "status_code": 200
-  },
-  "basculegion-female": {
-    "dex_numbers": {
-      "species_id": -1
-    },
-    "types": [
-      {
-        "slot": 1,
-        "name": "water"
-      },
-      {
-        "slot": 2,
-        "name": "ghost"
-      }
-    ],
-    "stats": [
-      {
-        "name": "hp",
-        "yield": 2
-      },
-      {
-        "name": "attack",
-        "yield": 0
-      },
-      {
-        "name": "defense",
-        "yield": 0
-      },
-      {
-        "name": "special-attack",
-        "yield": 0
-      },
-      {
-        "name": "special-defense",
-        "yield": 0
-      },
-      {
-        "name": "speed",
-        "yield": 0
-      }
-    ],
-    "status_code": 200
-  },
-  "ursaluna": {
-    "dex_numbers": {
-      "species_id": -1
-    },
-    "types": [
-      {
-        "slot": 1,
         "name": "ground"
-      },
-      {
-        "slot": 2,
-        "name": "normal"
       }
     ],
     "stats": [
       {
         "name": "hp",
-        "yield": 0
+        "yield": 1
       },
       {
         "name": "attack",
-        "yield": 3
+        "yield": 0
       },
       {
         "name": "defense",
@@ -239,51 +219,11 @@
     ],
     "status_code": 200
   },
-  "ursaluna-bloodmoon": {
+  "wooper-paldea": {
     "dex_numbers": {
+      "national": 194,
+      "kitakami": 5,
       "species_id": -1
-    },
-    "types": [
-      {
-        "slot": 1,
-        "name": "ground"
-      },
-      {
-        "slot": 2,
-        "name": "normal"
-      }
-    ],
-    "stats": [
-      {
-        "name": "hp",
-        "yield": 0
-      },
-      {
-        "name": "attack",
-        "yield": 3
-      },
-      {
-        "name": "defense",
-        "yield": 0
-      },
-      {
-        "name": "special-attack",
-        "yield": 0
-      },
-      {
-        "name": "special-defense",
-        "yield": 0
-      },
-      {
-        "name": "speed",
-        "yield": 0
-      }
-    ],
-    "status_code": 200
-  },
-  "okidogi": {
-    "dex_numbers": {
-      "species_id": 1098
     },
     "types": [
       {
@@ -292,17 +232,17 @@
       },
       {
         "slot": 2,
-        "name": "fighting"
+        "name": "ground"
       }
     ],
     "stats": [
       {
         "name": "hp",
-        "yield": 0
+        "yield": 1
       },
       {
         "name": "attack",
-        "yield": 3
+        "yield": 0
       },
       {
         "name": "defense",
