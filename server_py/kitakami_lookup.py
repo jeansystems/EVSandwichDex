@@ -12,31 +12,34 @@ import json
 def get_species_urls(POKEDEX):
     resp = httpx.get(POKEDEX)
     result = resp.json()
-
     species_urls = [entry["pokemon_species"]["url"] for entry in result["pokemon_entries"]][193:197]
-    pokedex_nums = [entry["entry_number"] for entry in result["pokemon_entries"]][193:197]
-
-    return species_urls, pokedex_nums
+    return species_urls
 
 async def get_pokemon_datasets(species_url):
     async with httpx.AsyncClient() as client:
         resp = await client.get(species_url)
         result = resp.json()
-        return result
 
-async def get_varieties_from_datasets(species_urls, pokedex_nums):
+        pokedex_numbers = result["pokedex_numbers"]
+        for pokedex_number in pokedex_numbers:
+            if pokedex_number["pokedex"]["name"] == "national":
+                natdex_number = pokedex_number["entry_number"]
+
+        return result, natdex_number
+
+async def get_varieties_from_datasets(species_urls):
     # Create tasks using list comprehension, sometimes executres too quickly and creates timeout errors.
     # tasks = [asyncio.create_task(get_pokemon_datasets(species_url)) for species_url in species_urls]
     # Instead, let's build a for loop that we can put a sleep in. Performance is not the priority here.
     aggregated_pokemon_entries = {}
-    for species_url, pokedex_num in zip(species_urls, pokedex_nums):
+    for species_url in species_urls:
         task = asyncio.create_task(get_pokemon_datasets(species_url))
         # here's where we can fit a sleep
         #await asyncio.sleep(1)
-        result = await task
+        result, natdex_number = await task
         if result:
             #here's the trick to getting an "aggregated" object of the tasks iterated in parse_varieties_urls
-            aggregated_pokemon_entries.update(await parse_varieties_urls(result["varieties"], pokedex_num))
+            aggregated_pokemon_entries.update(await parse_varieties_urls(result["varieties"], natdex_number))
             #await parse_varieties_urls(result["varieties"])
         else:
             print(f"1st fail")
@@ -49,17 +52,16 @@ async def get_varieties_data(varieties_url):
         resp = await client.get(pokemon_url)
         return resp.status_code, resp.json()
 
-async def parse_varieties_urls(varieties_urls, pokedex_num):
+async def parse_varieties_urls(varieties_urls, natdex_number):
     tasks = [asyncio.create_task(get_varieties_data(varieties_url)) for varieties_url in varieties_urls]
     pokemon_entries = {}
     for task in asyncio.as_completed(tasks):
-        #print(pokedex_num)
         status_code, result = await task
         pokemon_name = result["name"]
         if status_code == 200:
             pokemon_entry = {
                 "dex_numbers": {
-                "kitakami_dex": pokedex_num,
+                "national": natdex_number,
                 "species_id": result["order"]
                 },
                 "types": [
@@ -91,15 +93,17 @@ async def parse_varieties_urls(varieties_urls, pokedex_num):
 
 async def main():
     POKEDEX = 'https://pokeapi.co/api/v2/pokedex/32'
-    species_urls, pokedex_nums = get_species_urls(POKEDEX)
-    aggregated_pokemon_entries = await get_varieties_from_datasets(species_urls, pokedex_nums)
-
+    species_urls = get_species_urls(POKEDEX)
+    aggregated_pokemon_entries = await get_varieties_from_datasets(species_urls)
+    print(aggregated_pokemon_entries)
+    '''
     aggregated_json = json.dumps(aggregated_pokemon_entries, indent=2)
     script_dir = os.path.dirname(os.path.abspath(__file__))
     relative_path = '../src/data/kitakami.json'
     output_path = os.path.normpath(os.path.join(script_dir,relative_path))
     with open(output_path, "w") as file:
         file.write(aggregated_json)
+    '''
 
 
 

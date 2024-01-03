@@ -1,46 +1,6 @@
 {
-  "basculin-white-striped": {
-    "dex_numbers": {
-      "kitakami_dex": 194,
-      "species_id": -1
-    },
-    "types": [
-      {
-        "slot": 1,
-        "name": "water"
-      }
-    ],
-    "stats": [
-      {
-        "name": "hp",
-        "yield": 0
-      },
-      {
-        "name": "attack",
-        "yield": 0
-      },
-      {
-        "name": "defense",
-        "yield": 0
-      },
-      {
-        "name": "special-attack",
-        "yield": 0
-      },
-      {
-        "name": "special-defense",
-        "yield": 0
-      },
-      {
-        "name": "speed",
-        "yield": 2
-      }
-    ],
-    "status_code": 200
-  },
   "basculin-blue-striped": {
     "dex_numbers": {
-      "kitakami_dex": 194,
       "species_id": 667
     },
     "types": [
@@ -79,8 +39,45 @@
   },
   "basculin-red-striped": {
     "dex_numbers": {
-      "kitakami_dex": 194,
       "species_id": 666
+    },
+    "types": [
+      {
+        "slot": 1,
+        "name": "water"
+      }
+    ],
+    "stats": [
+      {
+        "name": "hp",
+        "yield": 0
+      },
+      {
+        "name": "attack",
+        "yield": 0
+      },
+      {
+        "name": "defense",
+        "yield": 0
+      },
+      {
+        "name": "special-attack",
+        "yield": 0
+      },
+      {
+        "name": "special-defense",
+        "yield": 0
+      },
+      {
+        "name": "speed",
+        "yield": 2
+      }
+    ],
+    "status_code": 200
+  },
+  "basculin-white-striped": {
+    "dex_numbers": {
+      "species_id": -1
     },
     "types": [
       {
@@ -118,7 +115,6 @@
   },
   "basculegion-male": {
     "dex_numbers": {
-      "kitakami_dex": 195,
       "species_id": -1
     },
     "types": [
@@ -161,7 +157,6 @@
   },
   "basculegion-female": {
     "dex_numbers": {
-      "kitakami_dex": 195,
       "species_id": -1
     },
     "types": [
@@ -204,7 +199,6 @@
   },
   "ursaluna": {
     "dex_numbers": {
-      "kitakami_dex": 196,
       "species_id": -1
     },
     "types": [
@@ -247,7 +241,6 @@
   },
   "ursaluna-bloodmoon": {
     "dex_numbers": {
-      "kitakami_dex": 196,
       "species_id": -1
     },
     "types": [
@@ -290,7 +283,6 @@
   },
   "okidogi": {
     "dex_numbers": {
-      "kitakami_dex": 197,
       "species_id": 1098
     },
     "types": [
