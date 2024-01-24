@@ -102,7 +102,7 @@ async def main():
     aggregated_json = json.dumps(aggregated_pokemon_entries, indent=2)
     print(aggregated_json)
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    relative_path = '../src/data/kitakami.json'
+    relative_path = '../data/kitakami.json'
     output_path = os.path.normpath(os.path.join(script_dir,relative_path))
     with open(output_path, "w") as file:
         file.write(aggregated_json)

@@ -175,16 +175,16 @@
     ],
     "status_code": 200
   },
-  "wooper": {
+  "wooper-paldea": {
     "dex_numbers": {
       "national": 194,
       "kitakami": 5,
-      "species_id": 291
+      "species_id": -1
     },
     "types": [
       {
         "slot": 1,
-        "name": "water"
+        "name": "poison"
       },
       {
         "slot": 2,
@@ -219,16 +219,16 @@
     ],
     "status_code": 200
   },
-  "wooper-paldea": {
+  "wooper": {
     "dex_numbers": {
       "national": 194,
       "kitakami": 5,
-      "species_id": -1
+      "species_id": 291
     },
     "types": [
       {
         "slot": 1,
-        "name": "poison"
+        "name": "water"
       },
       {
         "slot": 2,
