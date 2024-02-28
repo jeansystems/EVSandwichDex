@@ -42,17 +42,18 @@
 </div>
 <style>
     .left-container {
+        height: 100%;
         display: flex;
         flex-direction: row;
     }
     .left-sidebar {
+        width: 100%;
         display: flex;
         flex-direction: column;
         overflow-y: hidden;
     }
     .left-sidebar-buttons {
         flex-grow: 1;
-        width: 500px;
         display: block;
         box-shadow: none;
         border: 0px;
