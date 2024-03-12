@@ -36,7 +36,7 @@
         <div class="right-content">
             <div class="right-container">
                 <Right />
-            </div>>
+            </div>
             <div class="right-footer"></div>
         </div>
     </div>
