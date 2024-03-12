@@ -74,9 +74,11 @@
     } = table.createViewModel(columns);
 </script>
 
-<div class="right-content-table">
-    <p>Okay, selected {$pokemonTypeClicked}</p>
-    <table {...$tableAttrs}>
+<div class="right-content-table-box">
+    <!--
+        <p>Okay, selected {$pokemonTypeClicked}</p>
+    -->
+    <table class="right-content-table" {...$tableAttrs}>
         <thead>
           {#each $headerRows as headerRow (headerRow.id)}
             <Subscribe rowAttrs={headerRow.attrs()} let:rowAttrs>
@@ -111,11 +113,26 @@
 </div>
 
 <style>
-    .right-content-table {
+    .right-content-table-box {
         height: 100%;
         width: 100%;
-        border: solid antiquewhite 5px;
+        /*border: solid antiquewhite 5px; /* demonstrates working border */
         box-sizing: border-box;
+    }
+    .right-content-table {
+        width: 100%;
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+    .right-content-table th, td {
+        border: 1px solid black;
+    }
+    .right-content-table th {
+        background: rgba(0, 0, 0, 0.5);
+        color: lightgray;
+    }
+    .right-content-table td {
+        background: rgba(256, 256, 256, 0.75)
     }
     p {
         margin: 0px;
