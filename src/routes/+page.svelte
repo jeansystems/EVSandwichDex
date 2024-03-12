@@ -33,7 +33,7 @@
         <div class="left-content">
             <Left />
         </div>
-        <div class="right-content">
+        <div class="right">
             <div class="right-container">
                 <Right />
             </div>
@@ -80,7 +80,7 @@
         width: 17.5em;
         height: calc(100vh - var(--topHeight));
     }
-    .right-content {
+    .right {
         margin-left: 17.5em;
         flex: 1;
         display: flex;

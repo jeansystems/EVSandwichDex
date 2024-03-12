@@ -9,9 +9,7 @@
     {#if $pokemonTypeClicked === null}
         <p>Select a Pokemon type from the buttons on the left</p>
     {:else}
-        <div class="right-content-table">
-            <RightTable />
-        </div>
+        <RightTable />
     {/if}
 </div>
 
@@ -22,6 +20,8 @@
         transition: background-color 0.2s ease;
         background-color: rgba(var(--bg-color));
         display: flex;
+        box-sizing: border-box;
+        padding: 8px;
     }
     .right-content p {
         margin-top: 0px;
